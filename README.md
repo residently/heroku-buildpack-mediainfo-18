@@ -6,7 +6,7 @@ It doesn't do anything else, so you should use this as an extra buildpack on top
 This examples shows how you could add mediainfo to our existing app:
 
 ```
-heroku buildpacks:add https://github.com/bubobox/heroku-buildpack-mediainfo -a <app>
+heroku buildpacks:add https://github.com/residently/heroku-buildpack-mediainfo-18 -a <app>
 ```
 
 The binary location will be added to your PATH environment variable so after adding the buildpack and pushing a new commit `mediainfo` should be available to any shell command.
